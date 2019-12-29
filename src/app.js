@@ -23,7 +23,7 @@ app.get('/articles', (req,res, next) =>{
        res.json(articles)
      })
      .catch(next)
-
+)}
 app.get('/', (req, res) => {
      res.send('Hello, world!')
    })
@@ -42,6 +42,6 @@ app.get('/', (req, res) => {
 
 
 
-module.exports = app
+module.exports = app;
     
-  })
+  
